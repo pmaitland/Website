@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,react
+# Created by https://www.toptal.com/developers/gitignore/api/react,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,visualstudiocode
 
 ### react ###
 .DS_*
@@ -39,5 +39,5 @@ sketch
 
 # Support for Project snippet scope
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,react
+# End of https://www.toptal.com/developers/gitignore/api/react,visualstudiocode
 
