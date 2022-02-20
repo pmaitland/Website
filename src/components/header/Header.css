@@ -1,0 +1,34 @@
+.header {
+  height: 8vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  background-color: #00b3cd;
+  color: black;
+  padding: 8px;
+  border-bottom-left-radius: 50px;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .flash {
+    animation: flash infinite 1s;
+  }
+}
+
+@keyframes flash {
+  50% {
+    opacity: 0;
+  }
+}
