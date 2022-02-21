@@ -1,7 +1,7 @@
 body {
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Courier New',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Courier New', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,10 +1,28 @@
 .text {
   display: flex;
   align-items: center;
+  text-align: justify;
+}
+
+.blue-shadow {
+  box-shadow: rgba(0, 179, 205, 0.4) 5px 5px, rgba(64, 198, 218, 0.3) 10px 10px,
+    rgba(117, 214, 228, 0.2) 15px 15px, rgba(172, 230, 239, 0.1) 20px 20px,
+    rgba(214, 243, 247, 0.05) 25px 25px;
+}
+
+.orange-shadow {
+  box-shadow: rgba(254, 191, 87, 0.4) 5px 5px,
+    rgba(254, 216, 153, 0.3) 10px 10px, rgba(254, 226, 180, 0.2) 15px 15px,
+    rgba(254, 235, 203, 0.1) 20px 20px, rgba(255, 247, 233, 0.05) 25px 25px;
 }
 
 .app {
+  height: 100%;
+  width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
 }
