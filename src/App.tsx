@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './App.css'
+import './App.sass'
 
 import Footer from './components/footer/Footer'
 import GameJams from './components/gameJams/GameJams'

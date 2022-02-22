@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
-import './Navbar.css'
+import './Navbar.sass'
 
 const Navbar = () => {
   return (
     <div className="content">
-      <div className="navbar pink-shadow">
+      <div className="navbar">
         <Link to="/">Home</Link>
         <div>|</div>
         <Link to="/gameJams">Game Jams</Link>

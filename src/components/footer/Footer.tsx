@@ -1,10 +1,10 @@
 import React from 'react'
-import './Footer.css'
+import './Footer.sass'
 import { FaGithub } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className="footer blue-shadow">
+    <div className="footer">
       <a
         href="https://github.com/pmaitland"
         target="_blank"

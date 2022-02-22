@@ -1,12 +1,12 @@
 import React from 'react'
 import { gameJams } from './constants'
-import './GameJams.css'
+import './GameJams.sass'
 
 const GameJams = () => {
   return (
     <div className="gameJams">
       {gameJams.map((gameJam, index) => (
-        <div key={index} className="gameJam orange-shadow">
+        <div key={index} className="gameJam">
           <div className="details">
             <div className="name text">
               <b>{gameJam.game.name}</b>
