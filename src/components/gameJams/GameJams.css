@@ -33,7 +33,7 @@
   align-items: stretch;
   align-content: stretch;
   justify-content: space-between;
-  padding: 8px;
+  padding: 24px;
 }
 
 .description {
@@ -47,12 +47,11 @@
 }
 
 .link {
-  padding-right: 8px;
+  padding-right: 32px;
 }
 
 .image {
   width: 30%;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: white;
 }

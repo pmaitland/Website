@@ -26,7 +26,7 @@ const GameJams = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Play
+                      &gt; Play
                     </a>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ const GameJams = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      GitHub
+                      &gt; GitHub
                     </a>
                   </div>
                 </div>
