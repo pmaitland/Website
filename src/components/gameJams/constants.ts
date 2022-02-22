@@ -13,6 +13,8 @@ type Game = {
   repoLink?: string
 }
 
+export const imageDir: string = 'gameJams/'
+
 export const gameJams: GameJam[] = [
   {
     organisation: 'Global Game Jam',
@@ -22,7 +24,7 @@ export const gameJams: GameJam[] = [
       name: 'God Complex',
       description:
         'In God Complex you are a god-like being given the opportunity to create life. Will the choices you make help it grow and progress, or lead to its annihilation?',
-      image: 'games/godComplex.png',
+      image: 'godComplex.png',
       playLink: 'https://yasmojam.github.io/ggj2022/',
       repoLink: 'https://github.com/Yasmojam/ggj2022',
     },
@@ -35,7 +37,7 @@ export const gameJams: GameJam[] = [
       name: 'Bee Game',
       description:
         "Your bees are busy working hard to keep your hive alive, and you'll need to be busy keeping an eye out for intruder bees who are here to steal from you!",
-      image: 'games/beeGame.png',
+      image: 'beeGame.png',
       repoLink: 'https://github.com/Iain530/github-game-jam-2021',
     },
   },
@@ -47,7 +49,7 @@ export const gameJams: GameJam[] = [
       name: 'Island Dream',
       description:
         'You are a survivor. Your plane has crashed and you have been lost to society! Stranded on a series of desert islands you must solve simple puzzles and build a boat to leave the islands and find your way back to the world. Find materials to progress across the islands to achieve this goal!',
-      image: 'games/islandDream.png',
+      image: 'islandDream.png',
       playLink: 'https://dasha1362.itch.io/island-dream',
       repoLink: 'https://github.com/Yasmojam/GGJ21',
     },
@@ -60,7 +62,7 @@ export const gameJams: GameJam[] = [
       name: 'Spaceship Repair',
       description:
         'Oh no! Your spaceship has crash landed on an unknown world and asteroids are raining down all around you. Can you collect scrap to repair your spaceship and escape?',
-      image: 'games/repairGame.png',
+      image: 'repairGame.png',
       repoLink: 'https://github.com/Yasmojam/GlobalGameJam2020',
     },
   },
@@ -72,7 +74,7 @@ export const gameJams: GameJam[] = [
       name: 'Slimes',
       description:
         'The twin slimes have to work together to jump, dive, and slide through a dangerous dungeon to help Mama Slime escape.',
-      image: 'games/slimes.png',
+      image: 'slimes.png',
       playLink: 'https://gudev.itch.io/slimes',
       repoLink: 'https://github.com/pmaitland/GUDev5',
     },
@@ -85,7 +87,7 @@ export const gameJams: GameJam[] = [
       name: 'Hermit',
       description:
         "It's important to eat plenty of healthy food to grow big and strong, but be careful; you might outgrow your home and have to find another!",
-      image: 'games/hermit.png',
+      image: 'hermit.png',
       repoLink: 'https://github.com/Iain530/GGJ19',
     },
   },
@@ -97,7 +99,7 @@ export const gameJams: GameJam[] = [
       name: 'Parkour Piggies',
       description:
         'The piglets have lost their mum! Can you help them jump to the top of each level and find her?',
-      image: 'games/parkourPiggies.png',
+      image: 'parkourPiggies.png',
       playLink: 'https://dasha1362.itch.io/parkour-piggies',
       repoLink: 'https://github.com/dasha1362/gudev4-deceit',
     },
@@ -110,7 +112,7 @@ export const gameJams: GameJam[] = [
       name: 'Claw Game',
       description:
         "Cleaning the ocean? Pfft, we're here to make money! Use the giant claw attached to your boat to pull valuables out of the water and sell them!",
-      image: 'games/clawGame.png',
+      image: 'clawGame.png',
       repoLink: 'https://github.com/pmaitland/GUDEV_GameJam_Email-',
     },
   },
@@ -122,7 +124,7 @@ export const gameJams: GameJam[] = [
       name: 'Operation: Wire',
       description:
         'You are a virus. Your mission: Investigate computers on the network and find out as much information about them as you can.',
-      image: 'games/operationWire.png',
+      image: 'operationWire.png',
       playLink: 'https://dasha1362.itch.io/operation-wire',
       repoLink: 'https://github.com/DevdudeSami/GUEmail_GGJ',
     },

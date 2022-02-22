@@ -1,5 +1,5 @@
 import React from 'react'
-import { gameJams } from './constants'
+import { gameJams, imageDir } from './constants'
 import './GameJams.sass'
 
 const GameJams = () => {
@@ -51,7 +51,7 @@ const GameJams = () => {
           {gameJam.game.image && (
             <img
               className="image"
-              src={gameJam.game.image}
+              src={imageDir + gameJam.game.image}
               alt={gameJam.game.name}
             />
           )}
