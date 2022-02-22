@@ -1,6 +1,8 @@
 $blue: #00b3cd;
 $pink: #e56399;
 $orange: #febf57;
+$black: #41393e;
+$white: #f8f7ff;
 
 @mixin box-shadow-blue {
   box-shadow: 5px 5px rgba(0, 179, 205, 0.4), 10px 10px rgba(64, 198, 218, 0.3),
@@ -42,4 +44,5 @@ a {
   align-items: center;
   box-sizing: content-box;
   flex: 1;
+  background-color: $white;
 }
