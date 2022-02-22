@@ -1,10 +1,10 @@
 import React from 'react'
-import './Header.sass'
+import './Header.scss'
 
 const Header = () => {
   return (
     <div className="header">
-      <img src="face.jpg" className="logo" alt="face" />
+      <img src="/face.jpg" className="logo" alt="face" />
       <div className="title">
         <div className="text">peter@maitland:~$</div>
         <div className="text flash">|</div>

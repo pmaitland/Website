@@ -13,7 +13,7 @@ type Game = {
   repoLink?: string
 }
 
-export const imageDir: string = 'gameJams/'
+export const imageDir: string = '/gameJams/'
 
 export const gameJams: GameJam[] = [
   {

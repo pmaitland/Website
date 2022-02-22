@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './App.sass'
+import './App.scss'
 
 import Footer from './components/footer/Footer'
 import GameJams from './components/gameJams/GameJams'
@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar />}>
-            <Route path="gameJams" element={<GameJams />} />
+            <Route path="/gameJams" element={<GameJams />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { gameJams, imageDir } from './constants'
-import './GameJams.sass'
+import './GameJams.scss'
 
 const GameJams = () => {
   return (

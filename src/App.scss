@@ -1,0 +1,45 @@
+$blue: #00b3cd;
+$pink: #e56399;
+$orange: #febf57;
+
+@mixin box-shadow-blue {
+  box-shadow: 5px 5px rgba(0, 179, 205, 0.4), 10px 10px rgba(64, 198, 218, 0.3),
+    15px 15px rgba(117, 214, 228, 0.2), 20px 20px rgba(172, 230, 239, 0.1),
+    25px 25px rgba(214, 243, 247, 0.05);
+}
+
+@mixin box-shadow-pink {
+  box-shadow: 5px 5px rgba(229, 99, 153, 0.4),
+    10px 10px rgba(234, 130, 173, 0.3), 15px 15px rgba(239, 161, 194, 0.2),
+    20px 20px rgba(244, 189, 212, 0.1), 25px 25px rgba(250, 222, 234, 0.05);
+}
+
+@mixin box-shadow-orange {
+  box-shadow: 5px 5px rgba(254, 191, 87, 0.4),
+    10px 10px rgba(254, 216, 153, 0.3), 15px 15px rgba(254, 226, 180, 0.2),
+    20px 20px rgba(254, 235, 203, 0.1), 25px 25px rgba(255, 247, 233, 0.05);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.app {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+  flex: 1;
+}

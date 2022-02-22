@@ -1,0 +1,23 @@
+@import '../../App.scss';
+
+.footer {
+  height: 48px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  background-color: $blue;
+  color: black;
+  padding: 8px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: auto;
+  justify-content: flex-end;
+  @include box-shadow-blue();
+}
+
+.social {
+  margin-top: 4px;
+  margin-right: 24px;
+  height: 90%;
+}
