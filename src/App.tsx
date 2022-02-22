@@ -1,14 +1,23 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import GameJams from './components/gameJams/GameJams'
 import Header from './components/header/Header'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <GameJams />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar />}>
+            <Route path="gameJams" element={<GameJams />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

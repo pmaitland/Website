@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header blue-shadow">
       <img src={face} className="logo" alt="face" />
       <div className="title">
         <div className="text">peter@maitland:~$</div>
