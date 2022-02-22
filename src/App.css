@@ -28,12 +28,14 @@ a {
 }
 
 .app {
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
   box-sizing: content-box;
+  flex: 1;
 }

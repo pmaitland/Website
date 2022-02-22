@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
+import Footer from './components/footer/Footer'
 import GameJams from './components/gameJams/GameJams'
 import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
@@ -18,6 +19,8 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+
+      <Footer />
     </div>
   )
 }

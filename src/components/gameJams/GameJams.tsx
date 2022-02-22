@@ -21,7 +21,13 @@ const GameJams = () => {
               {gameJam.game.playLink && (
                 <div className="link">
                   <div className="text">
-                    <a href={gameJam.game.playLink}>Play</a>
+                    <a
+                      href={gameJam.game.playLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Play
+                    </a>
                   </div>
                 </div>
               )}
@@ -29,7 +35,13 @@ const GameJams = () => {
               {gameJam.game.repoLink && (
                 <div className="link">
                   <div className="text">
-                    <a href={gameJam.game.repoLink}>GitHub</a>
+                    <a
+                      href={gameJam.game.repoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
                   </div>
                 </div>
               )}
