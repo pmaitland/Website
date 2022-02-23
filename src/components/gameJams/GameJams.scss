@@ -1,5 +1,11 @@
 @import '../../App.scss';
 
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .gameJams {
   display: flex;
   flex-direction: row;
@@ -13,20 +19,16 @@
 .gameJam {
   width: 45%;
   height: 250px;
+  min-height: 250px;
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
   background-color: $orange;
-  margin: 1%;
+  margin: 16px;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
   @include box-shadow-orange();
-}
-
-.name {
-  font-size: larger;
-  padding-bottom: 8px;
 }
 
 .details {
@@ -36,12 +38,8 @@
   align-items: stretch;
   align-content: stretch;
   justify-content: space-between;
-  padding: 24px;
-}
-
-.description {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .links {

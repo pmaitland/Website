@@ -27,10 +27,34 @@ a {
   text-decoration: none;
 }
 
+.title {
+  font-size: larger;
+  font-weight: bold;
+}
+
 .text {
   display: flex;
   align-items: center;
   text-align: justify;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.panel {
+  width: 91.5%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  background-color: $orange;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  @include box-shadow-orange();
 }
 
 .app {
